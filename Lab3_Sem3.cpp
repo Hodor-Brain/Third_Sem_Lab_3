@@ -26,6 +26,14 @@ int main()
 			system("cls");
 			CheckSinglePhrase();
 			break;
+		case 2:
+			system("cls");
+			CompressFile();
+			break;
+		case 3:
+			system("cls");
+			DecompressFile();
+			break;
 		default:
 			break;
 		}
